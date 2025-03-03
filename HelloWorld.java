@@ -6,6 +6,8 @@ public class HelloWorld {
         System.out.print("What is your name: ");
         String name = kb.nextLine();
         System.out.println("Hello, " + name);
+        Computer computer1 = new Computer();
+        System.out.println(computer1.getColor());
         kb.close();
     }
 
